@@ -4,3 +4,4 @@ itsdangerous==0.24
 Jinja2==2.7.3
 requests
 flask-restplus
+jsonobject
