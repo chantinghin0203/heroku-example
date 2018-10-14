@@ -5,3 +5,4 @@ Jinja2==2.7.3
 requests
 flask-restplus
 jsonobject
+numpy
