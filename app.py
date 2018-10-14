@@ -31,7 +31,8 @@ authorizations = {
 api_auth = Api(
     authorizations=authorizations,
     security={'oauth2': ["viewing_activity_read", "user:read:email", "user:edit:broadcast"]},
-    doc='/Document')
+    # doc='/Document'
+)
 
 parent = api_auth.model('Parent', {
     'name': fields.String,
